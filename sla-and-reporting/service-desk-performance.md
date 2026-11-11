@@ -2,16 +2,17 @@ Service Desk Performance Report
 
 1. Report Overview
 
-This document defines the service desk performance indicators used to monitor incident handling, resolution efficiency, service quality and operational performance.
+This document tracks service desk performance indicators, incident outcomes, resolution efficiency and operational performance.
 
-The report will be updated as additional simulated tickets are completed.
+The report is based on simulated service desk tickets completed as part of this portfolio.
 
 2. Current Ticket Summary
 
 Metric| Current Value
-Total tickets recorded| 2
+Total tickets recorded| 3
 High-priority tickets| 2
-Resolved tickets| 1
+Medium-priority tickets| 1
+Resolved tickets| 2
 Escalated tickets| 1
 Open tickets| 0
 Knowledge-base articles| 2
@@ -21,6 +22,7 @@ Knowledge-base articles| 2
 Ticket ID| Incident| Priority| Outcome
 IT-001| Temporary Windows Profile| High| Escalated to L2
 AD-001| Active Directory Account Lockout| High| Resolved at L1
+IT-003| Slow Windows Workstation| Medium| Resolved at L1
 
 4. Key Performance Indicators (KPIs)
 
@@ -46,7 +48,7 @@ Measures the time between ticket creation and the first response from a technici
 
 SLA Compliance
 
-Measures the percentage of tickets handled within the agreed service-level targets.
+Measures the percentage of tickets handled within agreed service-level targets.
 
 Formula:
 
@@ -60,16 +62,23 @@ Formula:
 
 Escalation Rate = (Escalated tickets / Total tickets) × 100
 
+Current descriptive escalation rate:
+
+1 / 3 × 100 = 33.3%
+
+This is based on only three simulated incidents and should not be treated as a reliable operational benchmark.
+
 5. Current Operational Observations
 
-- IT-001 required escalation because the temporary profile persisted after basic troubleshooting.
+- IT-001 required escalation because the temporary Windows profile persisted after basic troubleshooting.
 - AD-001 was resolved at L1 after the user updated mobile Outlook credentials and regained access.
-- Both incidents were documented with investigation findings and outcomes.
-- Knowledge-base articles were created to support consistent future troubleshooting.
+- IT-003 was resolved at L1 after unnecessary application usage was reduced and workstation performance improved.
+- All three incidents were documented with investigation findings and outcomes.
+- Two knowledge-base articles were created to support consistent troubleshooting.
 
 6. Reporting Limitations
 
-The current dataset contains only two simulated incidents.
+The current dataset contains only three simulated incidents.
 
 The following metrics cannot yet be reliably calculated:
 
@@ -78,7 +87,7 @@ The following metrics cannot yet be reliably calculated:
 - SLA compliance.
 - First contact resolution.
 
-Accurate calculations require recorded timestamps, applicable SLA targets and sufficient ticket history.
+Accurate calculations require recorded timestamps, applicable SLA targets, eligibility criteria and sufficient ticket history.
 
 7. Operational Improvement Goals
 
@@ -106,7 +115,7 @@ Planned additions include:
 
 9. Reporting Status
 
-Current dataset: 2 simulated incidents.
+Current dataset: 3 simulated incidents.
 
 Reporting maturity: Initial baseline established.
 
