@@ -97,5 +97,3 @@ The issue was not conclusively resolved at L1. The underlying cause of the tempo
 - Technical documentation.
 
 ---
-
-Portfolio note: This is a fictional service desk simulation. No real user accounts or enterprise systems were involved.
