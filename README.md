@@ -33,10 +33,11 @@ Evidence| Synthetic logs and screenshots
 Incident Register
 
 Ticket ID| Incident| Status
-IT-001| Temporary Windows Profile| Resolved / Escalated to L2
-AD-001| Active Directory Account Lockout| Resolved
+IT-001| Temporary Windows Profile| Escalated to L2 — Pending investigation
+AD-001| Active Directory Account Lockout| Resolved at L1
+IT-003| Slow Windows Workstation| Resolved at L1
 
-Additional incidents will be added as the project develops.
+Three simulated incidents have been documented to date. Additional incidents will be added as the project develops.
 
 Skills Demonstrated
 
