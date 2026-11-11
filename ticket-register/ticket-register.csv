@@ -2,3 +2,4 @@ Ticket ID,Category,Incident,Priority,Status,Assigned Level,Outcome
 IT-001,Windows Support,Temporary Windows Profile,High,Escalated to L2,L1,Temporary profile persisted after controlled sign-out and sign-in; escalated for further investigation
 AD-001,Identity and Access,Active Directory Account Lockout,High,Resolved,L1,User regained access after credentials on mobile Outlook were updated; suspected stale credentials require further verification
 IT-003,Windows Support,Slow Windows Workstation,Medium,Resolved,L1,Workstation performance improved after closing unnecessary applications and reopening only active workbooks and browser tabs; user confirmed improvement
+IT-004,Microsoft 365,Outlook Desktop Authentication Failure,Medium,Resolved,L1,Access restored after employee signed out of Outlook desktop and authenticated using updated password; successful outbound test email confirmed functionality
