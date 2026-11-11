@@ -36,8 +36,9 @@ Ticket ID| Incident| Status
 IT-001| Temporary Windows Profile| Escalated to L2 — Pending investigation
 AD-001| Active Directory Account Lockout| Resolved at L1
 IT-003| Slow Windows Workstation| Resolved at L1
+IT-004| Outlook Desktop Authentication Failure| Resolved at L1
 
-Three simulated incidents have been documented to date. Additional incidents will be added as the project develops.
+Four simulated incidents have been documented to date. Additional incidents will be added as the project develops.
 
 Skills Demonstrated
 
@@ -51,13 +52,19 @@ Skills Demonstrated
 - Ticket documentation
 - Escalation and handover
 - Knowledge-base development
+- Basic service desk performance reporting
 
 Project Structure
 
 ITSM-001-Enterprise-Service-Desk-Simulation/
 ├── README.md
 ├── ticket-register/
+│   └── ticket-register.csv
 ├── tickets/
+│   ├── IT-001-temporary-profile/
+│   ├── AD-001-account-lockout/
+│   ├── IT-003-slow-windows-workstation/
+│   └── IT-004-outlook-authentication-failure/
 ├── knowledge-base/
 ├── sla-and-reporting/
 └── evidence/
